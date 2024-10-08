@@ -28,7 +28,7 @@ SECRET_KEY = (
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-jmcbeath196-boutiqueado-lqpubhe8gr2.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-jmcbeath196-boutiqueado-lqpubhe8gr2.ws-eu116.gitpod.io']
 
 
 # Application definition
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products'
 ]
 
 MIDDLEWARE = [
